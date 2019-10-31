@@ -24,6 +24,13 @@ public class CallPersonUsingWebClient_Step2 {
 		}
 
 		logTime(start);
+		
+		try {
+			Thread.sleep(15000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	private static void logTime(Instant start) {
